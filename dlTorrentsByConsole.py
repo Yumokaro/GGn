@@ -64,8 +64,6 @@ for x in list:
             print('No more torrents on this page.')
             print('This page is finished, moving to next page')
 
-            #next = 0
-            #while next < 1:
             try:
                 browser.find_element_by_link_text('Next >').click()
                 time.sleep(5)
