@@ -13,9 +13,9 @@ browser.get('https://gazellegames.net/login.php')
 time.sleep(4)
 
 # Login Form
-browser.find_element_by_id('username').send_keys('Enter your Username here')
+browser.find_element_by_id('username').send_keys('Enter user name here')
 
-browser.find_element_by_id('password').send_keys('Enter your password here')
+browser.find_element_by_id('password').send_keys('Enter password here')
 
 browser.find_element_by_id('keeplogged').click()
 
@@ -35,7 +35,7 @@ time.sleep(10)
 
 
 # Use consoleList array of second file, consoleList.py
-# list = consoleList.secondaryConsoleList
+# list = GGn.consoleList.secondaryConsoleList
 
 # Example - Use a single console
 list = [ ['atari 2600', 'https://gazellegames.net/torrents.php?searchstr=&artistname=Atari+2600&order_by=groupname&order_way=asc'] ]
